@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.mf-drawer {
+  width: 20%;
+  height: 100%;
+  border: none;
+}
+
+.mf-videos {
+  width: 80%;
+  height: 100%;
+  border: none; 
+}

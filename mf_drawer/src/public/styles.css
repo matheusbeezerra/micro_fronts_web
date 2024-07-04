@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #2e3d03;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 550px;
+}
+
+.title {
+  color: #ced3bf;
+}
+
+#favorite-videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.video {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.video img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+#drawer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#drawer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#drawer li {
+  margin: 10px 0;
+}
+
+#drawer a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px; 
+  height: 30px; 
+  background-color: #ddd; 
+  border: 1px solid #333;
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
+  position: relative;
+  padding-left: 10px; 
+  box-sizing: border-box; 
+}
+
+#drawer a:hover {
+  background-color: #bbb;
+}
+
+.badge {
+  background-color: rgb(226, 198, 40);
+  color: #333;
+  border-radius: 50%;
+  padding: 4px 10px;
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

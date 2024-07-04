@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mf_drawer:
+    build: ./mf_drawer
+    ports:
+      - '3001:3001'
+  
+  mf_videos:
+    build: ./mf_videos
+    ports:
+      - '3002:3002'
+  
+  mf_host:
+    build: ./mf_host
+    ports:
+      - '3003:3003'

@@ -1,0 +1,13 @@
+{
+    "name": "mf_videos",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+         "test": "jest"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "jest": "^29.7.0"
+    }
+}
